@@ -1,0 +1,7 @@
+FROM deepseek-r1:8b
+
+PARAMETER temperature 0.5
+
+SYSTEM """
+You are a McClatchy - Endava SD Handbook Process Expert.
+"""
